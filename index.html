@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>饭饭音乐</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="index.css">
+<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+<script>if (window.module) module = window.module;</script>
+
+</head>
+<body style="margin:0 auto;">
+	<div>
+		<div id="container" style="width:100%;height:170px;-webkit-app-region: drag;">
+		    <div id="anitOut"></div>
+		    <div style="font-size:20px;position:absolute;left:350px;top:0px;color:white;font-weight:bold;-webkit-app-region: no-drag;">
+		    	<font id="small" style="position:relative;top:-7px;cursor:pointer;">_</font> <font id="close" style="margin-left:17px;cursor:pointer;">×</font> 
+		    </div>
+		    <div style="font-size:48px;position:absolute;left:165px;top:50px;color:white;">FF</div>
+		</div>
+		<div style="margin-top:10px;">
+			<input class="input" style="margin-left:110px;" type="text" id="name" placeholder="用户名" onmousemove="this.className='input_move'" onmouseout="this.className='input'"></input></br>
+
+			<input class="input" style="margin-left:110px;" type="password" id="password" placeholder="密码" onmousemove="this.className='input_move'" onmouseout="this.className='input'"></input></br> 
+
+			<button class="login" id="submit" onmousemove="this.className='button_move'" onmouseout="this.className='login'">登录</button>
+			<font id="reset" class="hide" style="position:absolute;top:200px;right:62px;color:red;font-size:14px;">滚去重输!</font>
+
+		</div>	
+
+	</div>
+	<script type="text/javascript" src="js/zindex.js"></script>
+</body>
+</html>

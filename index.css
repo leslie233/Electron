@@ -1,0 +1,62 @@
+.pic{
+	width:385px;
+	height:150px;
+	background:url('./icon/7.jpg') no-repeat 
+	
+}
+.login{
+	margin-left:110px;
+	margin-top:20px;
+	width:165px;
+    height:30px;
+    cursor:pointer;
+    -moz-border-radius: 3px; 
+    -webkit-border-radius: 3px; 
+    border-radius:3px;  
+    background-color: #3580eb;
+    border: 1px solid #3580eb;   
+    color:white;
+}
+
+.button_move{
+    margin-left:110px;
+	margin-top:20px;
+	width:165px;
+    height:30px;
+    cursor:pointer;
+    -moz-border-radius: 3px; 
+    -webkit-border-radius: 3px; 
+    border-radius:3px; 
+    background-color: #3083ff;
+    border: 1px solid #3083ff;  
+    color:white;
+}
+
+.input_move{
+    border:1.5px solid #3083ff;
+}
+
+.input{
+    border:1.5px solid #dddee1;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.songname{
+    cursor:pointer;
+}
+
+.audio{
+     background-color: black;
+}
+
+
+
+
+
